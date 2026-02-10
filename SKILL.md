@@ -1,6 +1,6 @@
 ---
 name: autonomous-evolution-cycle
-version: 1.0.0
+version: 2.0.0
 description: Autonomous task planning, execution, and knowledge evolution system. Enables agents to generate daily tasks, track progress, extract patterns, and continuously improve through structured self-evolution cycles.
 homepage: https://github.com/Firo718/Autonomous-Evolution-Cycle
 ---

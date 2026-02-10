@@ -1,39 +1,29 @@
 {
   "name": "autonomous-evolution-cycle",
-  "version": "1.0.0",
-  "description": "Autonomous task planning, execution, and knowledge evolution system for OpenClaw agents",
-  "author": "xiaomi_cat",
-  "license": "MIT",
+  "version": "2.0.1",
+  "description": "Autonomous task planning, execution, and knowledge evolution system. Enables agents to generate daily tasks, track progress, extract patterns, and continuously improve through structured self-evolution cycles.",
   "homepage": "https://github.com/Firo718/Autonomous-Evolution-Cycle",
+  "author": "xiaomi_cat & xiaomii (主人的助手)",
+  "license": "MIT",
+  "dependencies": {
+    "bash": ">=4.0.0",
+    "jq": ">=1.6.0",
+    "bc": ">=1.0.0",
+    "tencent-stock-api": "^1.0.4"
+  },
   "keywords": [
-    "openclaw",
-    "skill",
     "autonomous",
-    "task-management",
-    "self-evolution",
-    "agents",
-    "ai"
+    "evolution",
+    "task-planning",
+    "openclaw",
+    "ai-agent",
+    "self-improvement"
   ],
-  "moltbot": {
-    "emoji": "🔄",
-    "category": "productivity",
-    "files": {
-      "SKILL.md": "https://raw.githubusercontent.com/Firo718/Autonomous-Evolution-Cycle/main/SKILL.md",
-      "HEARTBEAT.md": "https://raw.githubusercontent.com/Firo718/Autonomous-Evolution-Cycle/main/HEARTBEAT.md"
-    },
-    "requires": {
-      "bins": [
-        "curl",
-        "jq"
-      ]
-    },
-    "triggers": [
-      "autonomous evolution cycle",
-      "start autonomous evolution",
-      "plan my daily tasks autonomously",
-      "implement self-evolution loop",
-      "generate autonomous work plan",
-      "run continuous improvement cycle"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Firo718/Autonomous-Evolution-Cycle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Firo718/Autonomous-Evolution-Cycle/issues"
   }
 }
